@@ -1,0 +1,55 @@
+.input {
+    border: 1px solid black;
+    height: 30px;
+    font-weight: bold;
+    padding: 5px 0 5px 25px;
+    color: gray;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.wrapperForm {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.titleInput {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.wrapperLogin {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.login:hover {
+    background-color: white;
+    color: black;
+}
+
+.errorForm {
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 5px;
+    height: 100%;
+    padding: 5px;
+}
+
+.errorInput {
+    border: 1px solid red;
+}
