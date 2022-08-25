@@ -1,0 +1,23 @@
+.paginationList {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: #F0F8FF;
+}
+
+.paginationList li {
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.activePage {
+    background-color: #ff8a00 !important;
+}
